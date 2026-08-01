@@ -1,8 +1,25 @@
 aid: solugen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solugen.png
 name: Solugen
-description: 'Solugen is a company surfaced as a portfolio company of founders-fund and added to the API
-  Evangelist network as a stub for enrichment. Sector: chemicals. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Solugen is a chemical manufacturing company that produces sustainable
+  industrial chemicals through its proprietary Bioforge platform, which combines engineered
+  enzymes, metal catalysis, and modular process design to convert renewable feedstocks
+  into products with minimal waste. Solugen serves markets including oil and gas, renewable
+  fuels, aerospace and defense, water treatment, cleaning, agriculture, concrete, and
+  personal care. Backed by Founders Fund, the company was added to the API Evangelist
+  network as a portfolio lead; as of this enrichment pass Solugen publishes no public
+  API, developer portal, SDK, or machine-readable developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/solugen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +29,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Chemicals
+- Manufacturing
+- Sustainability
+- Biotechnology
+- Industrial
+- Clean Technology
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/solugen-domain-security.yml
 - type: Website
   url: https://solugen.com
